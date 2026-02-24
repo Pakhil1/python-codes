@@ -1,0 +1,17 @@
+a=[1,2,3,4]
+print(a)
+#append:
+a.append(5)
+print(a)
+#extend:
+a.extend([7,8,9,10])
+a.extend([11,12])
+a.extend({30,20})
+print(a)
+#insert:
+a.insert(2,999)
+print(a)
+a.pop()
+print(a)
+print(a.pop(2))
+print(a)

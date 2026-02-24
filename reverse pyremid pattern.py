@@ -1,0 +1,19 @@
+'''pyremid pattern
+   *
+  * * * 
+* * * * *'''
+n=int(input("Enter size:"))
+for i in range(n-1,-1,-1):
+    for s in range(0,n-i-1):
+        print(" ",end=" ")
+    for j in range(0,2*i+1):
+        print("j",end=" ")
+        if i==0 or i==n-1:
+           print("*",end=' ')
+        elif j==0 or j==2*i:
+            print("*",end=' ')
+        else:
+            print(" ",end=' ')
+    print()        
+
+    
